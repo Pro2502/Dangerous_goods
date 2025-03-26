@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  font-family: Montserrat;
+  margin: 0;
+}
+a:link{
+  color:black;
+}
+a:visited{
+  color:#734d4d;
+}
+table#one {
+  border-collapse: collapse;
+}
+table#two {
+  border-collapse: collapse;
+}
+.menu {
+  background-color: #696969;
+  height: 80px;
+  text-align: center;
+  font-size: 20px;
+}
+.menu td:nth-child(1) {
+  width: 5%;
+  text-align: right;
+}
+.menu td:nth-child(2) {
+  color: #000;
+  padding-right: 120px;
+  width: 15%;
+  text-align: center;
+}
+.menu td:nth-child(3) {
+  border-left:5px solid black;
+  color: #000;
+  padding-left: 10px;
+  padding-right: 40px;
+  width: 35%;
+  text-align: left;
+}
+.menu td:nth-child(4),td:nth-child(5),td:nth-child(6) {
+  color: #000;
+  text-align: center;
+  width: 15%;
+}
+.menu td:nth-child(7) {
+  color: #000;
+  padding-right: 10px;
+  text-align: center;
+}
+.icon {
+  width: 100px;
+}
+.main_mark {
+  font-size: 40px;
+  padding-top: 20px;
+  vertical-align: bottom;
+  height: 100px;
+  text-align: left;
+}
+.otrisovka {
+  color: #86928B;
+  padding-top:80px;
+  margin-right: 2vw;
+  font-size: 20px;
+  height: 30px;
+  width: 50px;
+}
+.dline{
+  line-height: 1.5;
+}
+.button {
+  border: 3px solid #000;
+  padding: 15px 40px;
+}  
+.button:hover {
+  background-color: #786565;
+  color: #fff;
+  cursor: pointer;
+}
+.about_us {
+  font-size: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}  
+.truck {
+  padding-right: 4vw;
+  padding-left: 2vw; 
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+img {
+  max-width: 100%;  
+}
+.contacts {
+  background-color: #696969;
+  height: 100px;
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+}
+.contacts th {
+  color: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.contacts td:nth-child(1) {
+  width: 47%;
+  text-align: right;
+}
+.contacts td:nth-child(2) {
+  width: 6%;
+  text-align: center;
+}
+.contacts td:nth-child(3) {
+  width: 47%;
+  text-align: left;
+}
